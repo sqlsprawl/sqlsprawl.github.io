@@ -1,164 +1,288 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Paul Olson – Curriculum Vitae</title>
-  </head>
-  <body>
-    <!-- MAIN CONTAINER -->
-    <div id="main_container">
-      <!-- HEADER -->
-      <div id="header">
-        <!-- LOGOTYPE/NAME -->
-        <div class="header_logotype_container">
-          <h1 class="logotype_name">Paul <span class="purple">Olson</span></h1>
-          <h2 class="logotype_occupation">SQL Server DBA, Data Developer, and IT Leader</h2>
-        </div>
-        <!-- MAIN MENU -->
-        <div class="header_menu_container">
-          <ul class="download_print_buttons horizontal_list">
-            <!-- Link to downloadable PDF – adjust the path if needed -->
-            <li>
-              <a href="downloads/PaulOlsonCurriculumVitae2025.pdf" download>
-                <span class="icon entypo-download"></span>Download CV
-              </a>
-            </li>
-            <li>
-              <a href="#" onclick="window.print(); return false;">
-                <span class="icon entypo-print"></span>Print CV
-              </a>
-            </li>
-          </ul>
-          <div class="clear"></div>
-          <ul class="header_menu horizontal_list">
-            <li><a class="no_border purple" href="#profile">Profile</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#work_experience">Work Experience</a></li>
-          </ul>
-        </div>
-      </div>
-      <!-- LEFT COL -->
-      <div id="left_col">
-        <div class="profile_frame">
-          <!-- Replace the background image URL in your CSS or uncomment the img tag below after placing your image in the images folder -->
-          <div class="profile_picture" style="background: url('images/paul_profile.jpg') 100% / cover no-repeat;"></div>
-          <!-- Alternatively: <img src="images/paul_profile.jpg" alt="Paul Olson Profile Picture"> -->
-        </div>
-        <div class="hello_content">
-          <h2>About Me</h2>
-          <p>
-            I have always been a craftsman – from building robotic assemblies years ago to developing custom MSSQL Server health and monitoring applications. My career has been built on designing, optimizing, and managing enterprise-scale data infrastructures.
-          </p>
-        </div>
-        <div class="contact_details_content">
-          <h2>Contact details</h2>
-          <p class="purple">Phone:</p>
-          <p>312-852-6060</p>
-          <p class="purple">Email:</p>
-          <p>paul@olsonhouse.us</p>
-          <p class="purple">Address:</p>
-          <p>1221 Redbud</p>
-          <p>Chesterton, IN 46304</p>
-        </div>
-        <a href="mailto:paul@olsonhouse.us" class="send_message_button">
-          <span class="cut1"></span>
-          <span class="cut2"></span>
-          <span class="content">
-            Send me a message <span class="fontawesome-double-angle-right"></span>
-          </span>
-        </a>
-        <div class="get_social_content">
-          <h2>Get social</h2>
-          <ul class="social_icons horizontal_list">
-            <!-- Keeping only LinkedIn as provided -->
-            <li>
-              <a class="linkedin" href="http://www.linkedin.com/in/prolson" target="_blank">
-                <span class="entypo-linkedin-circled"></span>
-                <span class="invisible">LinkedIn</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <!-- PROFILE & CONTENT -->
-      <div id="content_container">
-        <!-- Profile / Summary Block -->
-        <div class="block" id="profile">
-          <h1>Profile</h1>
-          <p>
-            I am a SQL Server DBA, Data Developer, and IT Leader with extensive experience in designing, optimizing, and managing enterprise-scale data infrastructures. Passionate about emerging technologies and automation, I lead teams to drive innovation and operational excellence.
-          </p>
-        </div>
-        <!-- Work Experience Block -->
-        <div class="block" id="work_experience">
-          <h2>Bswift Employment History (2012–2025)</h2>
-          <p>
-            I have been a key contributor to Bswift’s database infrastructure for over 12 years, serving as the lead database administrator and primary engineer responsible for database architecture, disaster recovery, performance optimization, and compliance with regulatory standards such as HIPAA. Below are some key accomplishments:
-          </p>
-          <h3>Database Infrastructure & Performance Optimization</h3>
-          <ul>
-            <li>Engineered a resilient disaster recovery strategy capable of rebuilding production databases within four hours, with a 15-minute RPO, covering hundreds of terabytes of data.</li>
-            <li>Designed and deployed a custom SQL backup solution operating with near zero downtime for over a decade.</li>
-            <li>Implemented performance tuning methodologies for SQL Server by optimizing stored procedures, indexes, and execution plans.</li>
-            <li>Led multiple data center migrations spanning from Rackspace to AWS.</li>
-            <li>Managed Always On Availability Groups across geographically distributed regions.</li>
-            <li>Created AI-driven analytics for automating SQL plan optimization and identifying bottlenecks.</li>
-          </ul>
-          <h3>Compliance, Security & Lifecycle Management</h3>
-          <ul>
-            <li>Developed a robust de-identification system to anonymize PHI and PII in lower lifecycle environments, ensuring HIPAA compliance.</li>
-            <li>Implemented structured change management processes to promote best practices for database modifications and deployments.</li>
-            <li>Designed and maintained a lifecycle refresh system, automating non-production environment updates using SQL, PowerShell, and C#.</li>
-            <li>Led HIPAA and SOX compliance reviews, collaborating with auditors to uphold data governance standards.</li>
-          </ul>
-          <h3>Monitoring, Documentation & Knowledge Sharing</h3>
-          <ul>
-            <li>Researched, selected, and deployed database monitoring solutions including Idera and custom-built tools.</li>
-            <li>Maintained an internal DBA blog serving as a knowledge-sharing portal for best practices and troubleshooting.</li>
-            <li>Developed comprehensive technical documentation for database design, performance tuning, and disaster recovery.</li>
-            <li>Authored SQL Server deployment documentation ensuring repeatability in patching, upgrades, and configuration standardization.</li>
-            <li>Led developer training on database best practices to foster collaboration.</li>
-          </ul>
-          <h3>Strategic Leadership & Team Influence</h3>
-          <ul>
-            <li>Served as the lead resource for capacity planning, ensuring proactive scaling of database resources to meet business growth.</li>
-            <li>Championed the adoption of flexible sharding architecture to enhance database scalability.</li>
-            <li>Mentored junior DBAs and developers, fostering a culture of technical excellence.</li>
-            <li>Collaborated on technical debt reduction initiatives to optimize database efficiency.</li>
-            <li>Provided executive-level insights into database performance trends to support strategic decision-making.</li>
-          </ul>
-        </div>
-        <!-- Education Block -->
-        <div class="block" id="education">
-          <h2>Education</h2>
-          <p>
-            <strong>Purdue University</strong> (1992–1993)  
-            <br />Studied Mechanical Science, laying the foundation for my career in IT and database management.
-          </p>
-        </div>
-        <!-- Skills Block -->
-        <div class="block" id="skills">
-          <h2>Skills</h2>
-          <ul>
-            <li>SQL Server Architecture & Database Engineering</li>
-            <li>Disaster Recovery & High Availability</li>
-            <li>Performance Optimization & Query Tuning</li>
-            <li>IT Leadership & Team Management</li>
-            <li>Automation & Scripting (PowerShell, C#, Python)</li>
-            <li>Cloud Services (AWS)</li>
-            <li>Virtualization (VMware)</li>
-            <li>Compliance (HIPAA, SOX)</li>
-          </ul>
-        </div>
-      </div>
-      <div class="clear"></div>
-      <!-- FOOTER -->
-      <div id="footer">
-        <p class="footer_name">Paul Olson CV 2025</p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paul Olson - Curriculum Vitae</title>
+  <!-- Link to external CSS file (optional) -->
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* Basic Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Header / Banner */
+    header {
+      background-color: #f5f5f5;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    header img {
+      max-width: 150px;
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+    .intro {
+      max-width: 700px;
+    }
+    .intro h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+    .intro p {
+      margin-bottom: 5px;
+    }
+    .contact-info {
+      margin-top: 10px;
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+    /* Main Content Container */
+    .content {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 0 15px;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+    .section h2 {
+      border-bottom: 2px solid #eee;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+      font-size: 1.5rem;
+    }
+
+    .job {
+      margin-bottom: 20px;
+    }
+    .job h3 {
+      font-size: 1.2rem;
+      margin-bottom: 5px;
+    }
+    .job .date-range {
+      font-weight: bold;
+      color: #555;
+      margin-bottom: 5px;
+    }
+    .job ul {
+      list-style: disc;
+      margin-left: 20px;
+    }
+
+    footer {
+      background-color: #f5f5f5;
+      padding: 20px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #666;
+      margin-top: 40px;
+    }
+    footer a {
+      color: #666;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER / INTRO -->
+  <header>
+    <!-- Profile Photo -->
+    <img src="images/profile.jpg" alt="Paul Olson Profile Picture" />
+
+    <!-- Intro Text -->
+    <div class="intro">
+      <h1>Paul Olson</h1>
+      <p>SQL Server DBA, Data Developer, and IT Leader</p>
+      <div class="contact-info">
+        <p>Email: <a href="mailto:paul@olsonhouse.us">paul@olsonhouse.us</a></p>
+        <p>Phone: 312-852-6060</p>
+        <p>Location: Chesterton, IN</p>
+        <p><a href="http://www.linkedin.com/in/prolson" target="_blank">LinkedIn Profile</a></p>
       </div>
     </div>
-  </body>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <div class="content">
+    <!-- Summary Section -->
+    <div class="section">
+      <h2>Summary</h2>
+      <p>
+        I have always been a craftsman, whether it was robotic assemblies years ago or 
+        a custom MSSQL Server health and monitoring application last week. My strengths 
+        are SQL Server Architecture, Database Engineering, and IT Leadership with years 
+        of experience in designing, optimizing, and managing enterprise-scale data 
+        infrastructures. I am passionate about emerging technologies, automation, and 
+        leading teams to drive innovation and operational excellence.
+      </p>
+    </div>
+
+    <!-- Experience Section -->
+    <div class="section">
+      <h2>Professional Experience</h2>
+
+      <!-- bswift LLC -->
+      <div class="job">
+        <h3>SQL Server DBA, Data Developer, and IT Leader - bswift LLC</h3>
+        <p class="date-range">2013 - Present</p>
+        <ul>
+          <li>
+            Designed and implemented complex, high-availability SQL Server architectures, 
+            including Always On Availability Groups and Distributed Availability Groups.
+          </li>
+          <li>
+            Led the SQL Server infrastructure migration through multiple corporate acquisitions, 
+            moving environments across data centers and into AWS.
+          </li>
+          <li>
+            Built a custom AI-driven analytics server for automated performance optimizations.
+          </li>
+          <li>
+            Developed enterprise-wide de-identification software for HIPAA compliance, 
+            obfuscating PHI and PII data.
+          </li>
+          <li>
+            Created high-performance backup solutions and automated environment refresh systems.
+          </li>
+          <li>
+            Solely responsible for disaster recovery strategy and execution, achieving a 
+            15-minute RPO for mission-critical SQL databases.
+          </li>
+          <li>
+            Led efforts in performance tuning, monitoring, capacity planning, and security compliance.
+          </li>
+        </ul>
+      </div>
+
+      <!-- ITW -->
+      <div class="job">
+        <h3>SQL Server DBA, Systems Admin, and IT Leader - ITW</h3>
+        <p class="date-range">2010 - 2013</p>
+        <ul>
+          <li>
+            Served as sole DBA for ITW (Fortune 200) via Prescient Solutions, overseeing 
+            500+ databases (SQL Server, PostgreSQL, Oracle).
+          </li>
+          <li>
+            Developed a global backup and monitoring solution for a decentralized MSSQL environment.
+          </li>
+          <li>
+            Led the IT operations team, scaling out corporate services and infrastructure.
+          </li>
+        </ul>
+      </div>
+
+      <!-- UTC (Redhawk Division) -->
+      <div class="job">
+        <h3>DBA, Systems Admin, Project Management - UTC (Redhawk Division)</h3>
+        <p class="date-range">2004 - 2010</p>
+        <ul>
+          <li>
+            Managed and deployed large-scale security software projects, including SQL databases 
+            for Chicago’s Field Museum and the Chicago Federal Reserve.
+          </li>
+          <li>
+            Provided on-site and remote technical support, SQL administration, and systems build-outs.
+          </li>
+          <li>
+            Served as project manager for high-profile video IP and access control solutions.
+          </li>
+        </ul>
+      </div>
+
+      <!-- Java Hut Coffee -->
+      <div class="job">
+        <h3>Owner & Operator - Java Hut Coffee</h3>
+        <p class="date-range">2000 - 2004</p>
+        <ul>
+          <li>
+            Opened and operated a coffee shop business, expanding to three locations.
+          </li>
+          <li>
+            Studied .NET languages and computer science in parallel, building small 
+            applications to pay the bills.
+          </li>
+        </ul>
+      </div>
+
+      <!-- General Electric -->
+      <div class="job">
+        <h3>CNC Maintenance Programmer - General Electric</h3>
+        <p class="date-range">1996 - 2000</p>
+        <ul>
+          <li>
+            Maintained and programmed CNC machines and older 386 systems in a unionized environment.
+          </li>
+          <li>
+            Developed training documentation to keep machinists and maintenance teams 
+            comfortable with system usage.
+          </li>
+        </ul>
+      </div>
+
+      <!-- Planet, Inc -->
+      <div class="job">
+        <h3>Technical Support - Pla-net, Inc</h3>
+        <p class="date-range">1993 - 1997</p>
+        <ul>
+          <li>
+            Provided ISP help desk phone support, built desktop systems, and repaired customer computers.
+          </li>
+          <li>
+            Learned foundational IT lessons about bridging the gap between tech experts 
+            and non-technical customers.
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Education Section -->
+    <div class="section">
+      <h2>Education</h2>
+      <p>
+        <strong>Purdue University</strong> (1992-1993)  
+        Mechanical Science (left after one semester to pursue real-world experience).
+      </p>
+    </div>
+
+    <!-- Extra Info or Links -->
+    <div class="section">
+      <h2>Additional Information</h2>
+      <p>
+        Learn more about me at 
+        <a href="http://www.linkedin.com/in/prolson" target="_blank">
+          my LinkedIn profile
+        </a>.
+      </p>
+      <p>
+        <strong>Download Full CV:</strong> 
+        <a href="donloads/PaulOlsonCurriculumVitae2025.pdf" download>
+          Click here to download (DOCX)
+        </a>
+        <!-- or you can link to a PDF version instead -->
+      </p>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 Paul Olson. Built with ♥ and GitHub Pages.</p>
+  </footer>
+</body>
 </html>
